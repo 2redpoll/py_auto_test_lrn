@@ -1,8 +1,6 @@
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 
-from tests.lesson_selectors import browser
-
 link = "https://fake-shop.com/book1.html"
 
 browser = webdriver.Chrome()
